@@ -3,6 +3,10 @@ finetune rerank model like bce_reranker_bce、bge_reranker_base、bge_reranker_l
 ## Installation
 Operating System: Linux
 ```bash
+conda create -n rerank_model_finetune python=3.10
+conda activate rerank_model_finetune
+git clone https://github.com/Hzzz123rfefd/rerank_model_finetune.git
+
 ```
 ## Usage
 ### fintune
