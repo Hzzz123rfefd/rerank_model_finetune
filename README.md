@@ -6,7 +6,8 @@ Operating System: Linux
 conda create -n rerank_model_finetune python=3.10
 conda activate rerank_model_finetune
 git clone https://github.com/Hzzz123rfefd/rerank_model_finetune.git
-
+cd rerank_model_finetune
+pip install -r requirements.txt
 ```
 ## Usage
 ### fintune
